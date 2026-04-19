@@ -1,0 +1,267 @@
+export const SCHEDULE: IplMatch[] = [
+  {
+    id: 28,
+    endTime: "2026-04-19T09:30:00Z",
+    venue: "Kolkata",
+    teams: ["KKR", "RR", "Draw"],
+  },
+  {
+    id: 29,
+    endTime: "2026-04-19T13:30:00Z",
+    venue: "New Chandigarh",
+    teams: ["PBKS", "LSG", "Draw"],
+  },
+  {
+    id: 30,
+    endTime: "2026-04-20T13:30:00Z",
+    venue: "Ahmedabad",
+    teams: ["GT", "MI", "Draw"],
+  },
+  {
+    id: 31,
+    endTime: "2026-04-21T13:30:00Z",
+    venue: "Hyderabad",
+    teams: ["SRH", "DC", "Draw"],
+  },
+  {
+    id: 32,
+    endTime: "2026-04-22T13:30:00Z",
+    venue: "Lucknow",
+    teams: ["LSG", "RR", "Draw"],
+  },
+  {
+    id: 33,
+    endTime: "2026-04-23T13:30:00Z",
+    venue: "Mumbai",
+    teams: ["MI", "CSK", "Draw"],
+  },
+  {
+    id: 34,
+    endTime: "2026-04-24T13:30:00Z",
+    venue: "Bengaluru",
+    teams: ["RCB", "GT", "Draw"],
+  },
+  {
+    id: 35,
+    endTime: "2026-04-25T09:30:00Z",
+    venue: "Delhi",
+    teams: ["DC", "PBKS", "Draw"],
+  },
+  {
+    id: 36,
+    endTime: "2026-04-25T13:30:00Z",
+    venue: "Jaipur",
+    teams: ["RR", "SRH", "Draw"],
+  },
+  {
+    id: 37,
+    teams: ["CSK", "GT", "Draw"],
+    endTime: "2026-04-26T09:30:00Z",
+    venue: "Chennai",
+  },
+  {
+    id: 38,
+    teams: ["LSG", "KKR", "Draw"],
+    endTime: "2026-04-26T13:30:00Z",
+    venue: "Lucknow",
+  },
+  {
+    id: 39,
+    teams: ["DC", "RCB", "Draw"],
+    endTime: "2026-04-27T13:30:00Z",
+    venue: "Delhi",
+  },
+  {
+    id: 40,
+    teams: ["PBKS", "RR", "Draw"],
+    endTime: "2026-04-28T13:30:00Z",
+    venue: "New Chandigarh",
+  },
+  {
+    id: 41,
+    teams: ["MI", "SRH", "Draw"],
+    endTime: "2026-04-29T13:30:00Z",
+    venue: "Mumbai",
+  },
+  {
+    id: 42,
+    teams: ["GT", "RCB", "Draw"],
+    endTime: "2026-04-30T13:30:00Z",
+    venue: "Ahmedabad",
+  },
+  {
+    id: 43,
+    teams: ["RR", "DC", "Draw"],
+    endTime: "2026-05-01T13:30:00Z",
+    venue: "Jaipur",
+  },
+  {
+    id: 44,
+    teams: ["CSK", "MI", "Draw"],
+    endTime: "2026-05-02T13:30:00Z",
+    venue: "Chennai",
+  },
+  {
+    id: 45,
+    teams: ["SRH", "KKR", "Draw"],
+    endTime: "2026-05-03T09:30:00Z",
+    venue: "Hyderabad",
+  },
+  {
+    id: 46,
+    teams: ["GT", "PBKS", "Draw"],
+    endTime: "2026-05-03T13:30:00Z",
+    venue: "Ahmedabad",
+  },
+  {
+    id: 47,
+    teams: ["MI", "LSG", "Draw"],
+    endTime: "2026-05-04T13:30:00Z",
+    venue: "Mumbai",
+  },
+  {
+    id: 48,
+    teams: ["DC", "CSK", "Draw"],
+    endTime: "2026-05-05T13:30:00Z",
+    venue: "Delhi",
+  },
+  {
+    id: 49,
+    teams: ["SRH", "PBKS", "Draw"],
+    endTime: "2026-05-06T13:30:00Z",
+    venue: "Hyderabad",
+  },
+  {
+    id: 50,
+    teams: ["LSG", "RCB", "Draw"],
+    endTime: "2026-05-07T13:30:00Z",
+    venue: "Lucknow",
+  },
+  {
+    id: 51,
+    teams: ["DC", "KKR", "Draw"],
+    endTime: "2026-05-08T13:30:00Z",
+    venue: "Delhi",
+  },
+  {
+    id: 52,
+    teams: ["RR", "GT", "Draw"],
+    endTime: "2026-05-09T13:30:00Z",
+    venue: "Jaipur",
+  },
+  {
+    id: 53,
+    teams: ["CSK", "LSG", "Draw"],
+    endTime: "2026-05-10T09:30:00Z",
+    venue: "Chennai",
+  },
+  {
+    id: 54,
+    teams: ["RCB", "MI", "Draw"],
+    endTime: "2026-05-10T13:30:00Z",
+    venue: "Raipur",
+  },
+  {
+    id: 55,
+    teams: ["PBKS", "DC", "Draw"],
+    endTime: "2026-05-11T13:30:00Z",
+    venue: "Dharamshala",
+  },
+  {
+    id: 56,
+    teams: ["GT", "SRH", "Draw"],
+    endTime: "2026-05-12T13:30:00Z",
+    venue: "Ahmedabad",
+  },
+  {
+    id: 57,
+    teams: ["RCB", "KKR", "Draw"],
+    endTime: "2026-05-13T13:30:00Z",
+    venue: "Raipur",
+  },
+  {
+    id: 58,
+    teams: ["PBKS", "MI", "Draw"],
+    endTime: "2026-05-14T13:30:00Z",
+    venue: "Dharamshala",
+  },
+  {
+    id: 59,
+    teams: ["LSG", "CSK", "Draw"],
+    endTime: "2026-05-15T13:30:00Z",
+    venue: "Lucknow",
+  },
+  {
+    id: 60,
+    teams: ["KKR", "GT", "Draw"],
+    endTime: "2026-05-16T13:30:00Z",
+    venue: "Kolkata",
+  },
+  {
+    id: 61,
+    teams: ["PBKS", "RCB", "Draw"],
+    endTime: "2026-05-17T09:30:00Z",
+    venue: "Dharamshala",
+  },
+  {
+    id: 62,
+    teams: ["DC", "RR", "Draw"],
+    endTime: "2026-05-17T13:30:00Z",
+    venue: "Delhi",
+  },
+  {
+    id: 63,
+    teams: ["CSK", "SRH", "Draw"],
+    endTime: "2026-05-18T13:30:00Z",
+    venue: "Chennai",
+  },
+  {
+    id: 64,
+    teams: ["RR", "LSG", "Draw"],
+    endTime: "2026-05-19T13:30:00Z",
+    venue: "Jaipur",
+  },
+  {
+    id: 65,
+    teams: ["KKR", "MI", "Draw"],
+    endTime: "2026-05-20T13:30:00Z",
+    venue: "Kolkata",
+  },
+  {
+    id: 66,
+    teams: ["GT", "CSK", "Draw"],
+    endTime: "2026-05-21T13:30:00Z",
+    venue: "Ahmedabad",
+  },
+  {
+    id: 67,
+    teams: ["SRH", "RCB", "Draw"],
+    endTime: "2026-05-22T13:30:00Z",
+    venue: "Hyderabad",
+  },
+  {
+    id: 68,
+    teams: ["LSG", "PBKS", "Draw"],
+    endTime: "2026-05-23T13:30:00Z",
+    venue: "Lucknow",
+  },
+  {
+    id: 69,
+    teams: ["MI", "RR", "Draw"],
+    endTime: "2026-05-24T09:30:00Z",
+    venue: "Mumbai",
+  },
+  {
+    id: 70,
+    teams: ["KKR", "DC", "Draw"],
+    endTime: "2026-05-44T13:30:00Z",
+    venue: "Kolkata",
+  },
+];
+
+export interface IplMatch {
+  id: number;
+  endTime: string;
+  venue: string;
+  teams: string[];
+}
