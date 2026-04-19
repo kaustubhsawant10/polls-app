@@ -40,7 +40,7 @@ export default function VotingCard({
       {/* Question */}
       <div className="flex items-center justify-between mb-3 gap-5">
         <h2 className="text-base sm:text-lg md:text-xl font-medium text-gray-800">
-          {match.teams[0]} <span>{" vs "}</span> {match.teams[1]}
+          {match.id}. {match.teams[0]} <span>{" vs "}</span> {match.teams[1]}
         </h2>
         <label className="flex items-center gap-2 sm:text-sm">
           <Image
