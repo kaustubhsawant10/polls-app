@@ -35,7 +35,7 @@ export default function VotingCard({
 
   return (
     <div
-      className={`w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto p-2 sm:p-4 bg-white border border-gray-100 rounded-sm shadow-sm ${isDisabled ? "opacity-60 pointer-events-none" : ""}`}
+      className={`w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto p-2 sm:p-4 bg-white border border-gray-100 rounded-sm shadow-sm ${isDisabled ? "opacity-60 pointer-events-none" : "shadow-cyan-500/50"}`}
     >
       {/* Question */}
       <div className="flex items-center justify-between mb-3 gap-5">
